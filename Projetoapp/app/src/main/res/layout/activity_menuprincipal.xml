@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menuprincipal"
+    android:background="@drawable/pranchet5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="@null" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="778dp"
+
+
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="51dp"
+                android:layout_height="32dp"
+                android:background="@null"
+                android:text="menu"
+                android:textColor="@color/corbranca"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="17dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:text="salvador"
+                android:textColor="@color/corbranca"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="17dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:text="Pt-br"
+                android:textColor="@color/corbranca"
+                android:textSize="10dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="7dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/icone29" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="7dp"
+                android:layout_height="30dp"
+
+                android:layout_weight="1"
+                android:background="@null"
+                android:scaleType="centerInside"
+
+                app:srcCompat="@drawable/icone30" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="7dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/icone31" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageexplorar"
+        android:layout_width="115dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="43dp"
+        android:layout_toStartOf="@+id/imageingresso"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/icone7" />
+
+    <ImageButton
+        android:id="@+id/imageingresso"
+        android:layout_width="115dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="194dp"
+        android:layout_marginEnd="41dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/icone8" />
+
+    <ImageButton
+        android:id="@+id/imagedestaque"
+        android:layout_width="115dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/imageexplorar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="41dp"
+        android:layout_toStartOf="@+id/imageperfil"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/icone3" />
+
+    <ImageButton
+        android:id="@+id/imageperfil"
+        android:layout_width="115dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/imageingresso"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="41dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/icone9" />
+
+    <ImageButton
+        android:id="@+id/imagefavoritos"
+        android:layout_width="115dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/imagedestaque"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="57dp"
+        android:layout_toStartOf="@+id/imagesuporte"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/icone22" />
+
+    <ImageButton
+        android:id="@+id/imagesuporte"
+        android:layout_width="115dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/imageperfil"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="37dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/icone21" />
+
+</RelativeLayout>

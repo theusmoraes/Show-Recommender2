@@ -11,10 +11,10 @@ import android.widget.ImageButton;
 public class Menu extends AppCompatActivity {
     // tela de escolha
     private ImageButton imagenbutao;
-<<<<<<< HEAD
+
     Button botao1;
     Button botao2;
->>>>>>> main
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

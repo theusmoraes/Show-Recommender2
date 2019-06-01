@@ -14,8 +14,6 @@ public class Menu extends AppCompatActivity {
 <<<<<<< HEAD
     Button botao1;
     Button botao2;
-=======
-    Button botao1,botao2;
 >>>>>>> main
     @Override
     protected void onCreate(Bundle savedInstanceState) {

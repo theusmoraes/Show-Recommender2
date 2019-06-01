@@ -17,35 +17,45 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="411dp"
+        android:layout_height="54dp"
+        android:background="@drawable/border_style"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/your_name"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="277dp" />
+        android:text="@string/Nome_perfil"
+        android:textColor="@color/corbranca"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="253dp" />
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="436dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/border_style"
         android:ems="10"
         android:inputType="textPersonName"
-        android:background="@drawable/border_style"
-        android:text="@string/your_email"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="339dp" />
+        android:text="@string/Email_perfil"
+        android:textColor="@color/corbranca"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="336dp" />
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="411dp"
+        android:layout_height="85dp"
+
+        android:background="@drawable/border_style"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/your_city"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="404dp" />
+        android:text="@string/cidade_perfil"
+        android:textColor="@color/corbranca"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="428dp" />
 </android.support.constraint.ConstraintLayout>

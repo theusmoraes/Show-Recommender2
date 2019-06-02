@@ -1,17 +1,25 @@
 <resources>
     <string name="app_name">Projetoapp</string>
     <string name="key">Key Show</string>
-
+    prompt_user
+    <string name="prompt_user">Usuario</string>
+    <string name="prompt_nome">Nome</string>
+    <string name="prompt_yourname">Seu Nome</string>
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_login">Sign in</string>
+    <string name="prompt_adress">Email</string>
+    <string name="prompt_conf">Confirmar a senha</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="prompt_ingresso">Ingressos Comprados</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Welcome !"</string>
+    <string name="prompt_create">Cadastrar conta!</string>
+
+    prompt_create
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>

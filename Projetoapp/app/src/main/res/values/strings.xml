@@ -18,15 +18,10 @@
     <string name="selecionar_estado">Selecione um estado</string>
     <string name="action_settings">Configurações</string>
 
-    <string name="your_name">Seu nome:</string>
-    <string name="your_city">Cidade:</string>
-    <string name="your_email">Seu E-mail:</string>
 
-
-
-    <string name="Nome_perfil">Seu nome:</string>
-    <string name="cidade_perfil">Cidade:</string>
-    <string name = "Email_perfil">  Seu email:</string>
+    <string name="Nome_perfil">Meu nome: Jose Vinicius</string>
+    <string name="cidade_perfil">Cidade: Salvador</string>
+    <string name = "Email_perfil">  Meu E-mail: vinicius123@gmail.com</string>
     <string name ="eventofav">Eventos Favoritos</string>
     <string name ="tok">Touch</string>
     <string name ="estado">Estado</string>

@@ -28,6 +28,15 @@
     <string name="cidade_perfil">Cidade:</string>
     <string name = "Email_perfil">  Seu email:</string>
     <string name ="eventofav">Eventos Favoritos</string>
+    <string name ="tok">Touch</string>
+    <string name ="estado">Estado</string>
+    <string name ="menu">Menu</string>
+    <string name ="avaliar">avaliar nosso aplicativo</string>
+    <string name ="central">Central de ajuda</string>
+    <string name ="sobre">Sobre o Aplicativo</string>
+    <string name ="suporte">Suporte</string>
+    <string name ="explorar">Explorar</string>
+    <string name ="destaque">Destaque</string>
 
     <string name="title_activity_tela_selecao">Selecione</string>
     <string-array name="estados">

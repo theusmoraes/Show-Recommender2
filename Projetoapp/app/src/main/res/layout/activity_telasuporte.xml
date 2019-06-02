@@ -9,27 +9,27 @@
 
     <LinearLayout
         android:id="@+id/linearLayout4"
-        android:layout_width="416dp"
+        android:layout_width="377dp"
 
 
-        android:layout_height="154dp"
+        android:layout_height="74dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="584dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.338">
 
         <Button
             android:id="@+id/button1"
             android:layout_width="51dp"
             android:layout_height="32dp"
             android:background="@null"
-            android:text="menu"
+            android:text="@string/menu"
             android:textColor="@color/corbranca"
             android:textSize="10dp" />
 
@@ -39,7 +39,7 @@
             android:layout_height="35dp"
             android:layout_weight="1"
             android:background="@null"
-            android:text="salvador"
+            android:text="@string/estado"
             android:textColor="@color/corbranca"
             android:textSize="10dp" />
 
@@ -49,7 +49,7 @@
             android:layout_height="35dp"
             android:layout_weight="1"
             android:background="@drawable/botaocolorido"
-            android:text="Pt-br"
+            android:text="@string/tok"
             android:textColor="@color/corbranca"
             android:textSize="10dp" />
 
@@ -92,7 +92,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="587dp"
-        android:text="Suporte"
+        android:text="@string/suporte"
         android:textColor="@color/corbranca"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -106,9 +106,8 @@
         android:layout_height="83dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="299dp">
+        tools:layout_editor_absoluteY="274dp">
 
         <Button
             android:id="@+id/avaliar"
@@ -116,7 +115,7 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:background="@drawable/bordasuporte"
-            android:text="avaliar nosso aplicativo"
+            android:text="@string/avaliar"
             android:textColor="@color/corbranca"
             android:textSize="15dp" />
     </LinearLayout>
@@ -126,9 +125,7 @@
         android:layout_width="416dp"
         android:layout_height="69dp"
         android:layout_marginTop="180dp"
-        android:layout_marginBottom="8dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -139,7 +136,7 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:background="@drawable/bordasuporte"
-            android:text="Central de ajuda"
+            android:text="@string/central"
             android:textColor="@color/corbranca"
             android:textSize="15dp" />
     </LinearLayout>
@@ -155,7 +152,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.045">
 
         <Button
             android:id="@+id/sobre"
@@ -163,7 +160,7 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:background="@drawable/bordasuporte"
-            android:text="Sobre o Aplicativo"
+            android:text="@string/sobre"
             android:textColor="@color/corbranca"
             android:textSize="15dp" />
     </LinearLayout>

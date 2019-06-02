@@ -30,9 +30,9 @@
                 android:id="@+id/button1"
                 android:layout_width="60dp"
                 android:layout_height="35dp"
-                android:background="@null"
-                android:text="menu"
                 android:layout_weight="0.2"
+                android:background="@null"
+                android:text="@string/menu"
                 android:textColor="@color/corbranca"
                 android:textSize="10dp" />
 
@@ -42,7 +42,7 @@
                 android:layout_height="35dp"
                 android:layout_weight="0.2"
                 android:background="@null"
-                android:text="salvador"
+                android:text="@string/estado"
                 android:textColor="@color/corbranca"
                 android:textSize="10dp" />
 
@@ -54,7 +54,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/botaocolorido"
 
-                android:text="Pt-br"
+                android:text="@string/tok"
                 android:textColor="@color/corbranca"
                 android:textSize="10dp" />
 

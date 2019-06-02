@@ -25,9 +25,9 @@
                 android:id="@+id/button1"
                 android:layout_width="60dp"
                 android:layout_height="35dp"
-                android:background="@null"
-                android:text="menu"
                 android:layout_weight="0.2"
+                android:background="@null"
+                android:text="@string/menu"
                 android:textColor="@color/corbranca"
                 android:textSize="10dp" />
 
@@ -37,7 +37,7 @@
                 android:layout_height="35dp"
                 android:layout_weight="0.2"
                 android:background="@null"
-                android:text="salvador"
+                android:text="@string/estado"
                 android:textColor="@color/corbranca"
                 android:textSize="10dp" />
 
@@ -47,7 +47,7 @@
                 android:layout_height="35dp"
                 android:layout_weight="0.2"
                 android:background="@drawable/botaocolorido"
-                android:text="Pt-br"
+                android:text="@string/tok"
                 android:textColor="@color/corbranca"
                 android:textSize="10dp" />
 
@@ -90,11 +90,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="37dp"
-                    android:text="Destaque"
-                    android:textAlignment="center"
                     android:layout_marginTop="20dp"
-                    android:textSize="24dp"
-                    android:textColor="@color/corbranca"/>
+                    android:text="@string/destaque"
+                    android:textAlignment="center"
+                    android:textColor="@color/corbranca"
+                    android:textSize="24dp" />
 
                 <ImageView
                     android:layout_width="300dp"

@@ -26,7 +26,7 @@ public class Cadastro extends AppCompatActivity implements View.OnClickListener 
     @Override
     public void onClick(View v) {
         if(v.getId() == R.id.btnSalvar){
-            Intent z = new Intent(this, Menuprincipal.class);
+            Intent z = new Intent(this, Paginadelogin.class);
             startActivity(z);
         }
     }

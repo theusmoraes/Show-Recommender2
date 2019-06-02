@@ -9,13 +9,13 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class Paginadelogin extends AppCompatActivity implements View.OnClickListener {
-
+    Button botaologin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_paginadelogin);
 
-        Button botaologin= findViewById(R.id.login);
+        botaologin = (Button) findViewById(R.id.login);
         botaologin.setOnClickListener(this);
 
         getSupportActionBar().hide();
@@ -24,7 +24,11 @@ public class Paginadelogin extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View v) {
-        Intent login = new Intent(Paginadelogin.this, Menuprincipal.class);
-        startActivity(login);
+        switch (v.getId()){
+            case R.id.login:
+                Intent login = new Intent(Paginadelogin.this, Menuprincipal.class);
+                startActivity(login);
+                break;
+        }
     }
 }

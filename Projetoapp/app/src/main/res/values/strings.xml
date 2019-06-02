@@ -8,7 +8,7 @@
     <string name="title_activity_login">Sign in</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
-    <string name="prompt_ingresso">Ingressos Comprados</string>
+    <string name="prompt_ingressos">Ingressos Comprados</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Welcome !"</string>
@@ -23,7 +23,7 @@
     <string name="cidade_perfil">Cidade: Salvador</string>
     <string name = "Email_perfil">  Meu E-mail: vinicius123@gmail.com</string>
     <string name ="eventofav">Eventos Favoritos</string>
-    <string name ="tok">Touch</string>
+    <string name ="tok">PT-br</string>
     <string name ="estado">Estado</string>
     <string name ="menu">Menu</string>
     <string name ="avaliar">avaliar nosso aplicativo</string>

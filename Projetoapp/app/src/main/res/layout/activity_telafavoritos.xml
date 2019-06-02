@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Telafavoritos"
-    android:background="@drawable/pranchet10">
+    android:background="@drawable/pranchetk10">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,7 +51,7 @@
                 android:layout_width="17dp"
                 android:layout_height="35dp"
                 android:layout_weight="1"
-                android:background="@drawable/botaocolorido"
+                android:background="@null"
                 android:text="@string/tok"
                 android:textColor="@color/corbranca"
                 android:textSize="10dp" />

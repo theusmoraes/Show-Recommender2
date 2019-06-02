@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Cadastro"
-    android:background="@drawable/pranchet4">
+    android:background="@drawable/pranchetk4">
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"

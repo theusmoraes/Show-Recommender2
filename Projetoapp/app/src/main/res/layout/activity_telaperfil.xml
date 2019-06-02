@@ -5,96 +5,116 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Telaperfil"
-    android:background="@drawable/pranchet6">
+    android:background="@drawable/pranchetk6">
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="50dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="28dp"
-        android:background="@null"
-        android:text="@string/menu"
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.2"
+                android:background="@null"
+                android:text="@string/menu"
+                android:textColor="@color/corbranca"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="17dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.2"
+                android:background="@null"
+                android:text="@string/estado"
+                android:textColor="@color/corbranca"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="17dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.2"
+                android:background="@null"
+                android:text="@string/tok"
+                android:textColor="@color/corbranca"
+                android:textSize="10dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="7dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.15"
+                android:background="@null"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/icone29" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="7dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.2"
+                android:background="@null"
+                android:scaleType="centerInside"
+
+                app:srcCompat="@drawable/icone30" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="7dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.2"
+                android:background="@null"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/icone31" />
+            />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="143dp"
+            android:layout_height="146dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="460dp"
+            app:srcCompat="@drawable/icone4" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textSeuNome"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/border_style"
+        android:text="@string/Nome_perfil"
         android:textColor="@color/corbranca"
-        android:textSize="10dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="64dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="28dp"
-        android:layout_weight="1"
-        android:background="@null"
-        android:text="@string/estado"
-        android:textColor="@color/corbranca"
-        android:textSize="10dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="70dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="172dp"
-        android:layout_marginTop="28dp"
-        android:layout_weight="1"
-        android:text="@string/tok"
-        android:background="@drawable/botaocolorido"
-        android:textColor="@color/corbranca"
-        android:textSize="10dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="25dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="132dp"
-        android:layout_weight="1"
-        android:background="@null"
-        android:scaleType="centerInside"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icone29" />
-
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="30dp"
-        android:layout_height="31dp"
-
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="84dp"
-        android:layout_weight="1"
-
-        android:background="@null"
-        android:scaleType="centerInside"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icone30" />
-
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="79dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        android:layout_weight="1"
-        android:background="@null"
-        android:scaleType="centerInside"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icone31" />
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout6"
+        app:layout_constraintTop_toTopOf="@+id/textView8" />
 
     <TextView
         android:id="@+id/textCidade"
-        android:layout_width="425dp"
-        android:layout_height="38dp"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
 
-        android:layout_marginBottom="224dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="220dp"
         android:background="@drawable/border_style"
         android:text="@string/cidade_perfil"
         android:textColor="@color/corbranca"
@@ -103,42 +123,19 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textSeuNome"
-        android:layout_width="413dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="36dp"
-        android:background="@drawable/border_style"
-        android:text="@string/Nome_perfil"
-        android:textColor="@color/corbranca"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/textSeuemail"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="143dp"
-        android:layout_height="146dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="460dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icone4" />
-
-    <TextView
         android:id="@+id/textSeuemail"
-        android:layout_width="406dp"
-        android:layout_height="36dp"
-        android:layout_marginBottom="36dp"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/border_style"
         android:text="@string/Email_perfil"
         android:textColor="@color/corbranca"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/textCidade"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSeuNome"
+        app:layout_constraintVertical_bias="0.971" />
 
     <TextView
         android:id="@+id/textView8"
@@ -147,7 +144,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="212dp"
         android:layout_marginEnd="8dp"
-        android:text="@jose123"
+        android:text="jose123"
         android:textColor="#090404"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -160,11 +157,14 @@
         android:layout_width="66dp"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="332dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="300dp"
         android:background="@null"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textCidade"
         app:srcCompat="@drawable/icone6" />
 
@@ -173,10 +173,11 @@
         android:layout_width="66dp"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="332dp"
+        android:layout_marginEnd="300dp"
         android:background="@null"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tui"
         app:srcCompat="@drawable/icone23" />
 
@@ -185,11 +186,13 @@
         android:layout_width="66dp"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="332dp"
+        android:layout_marginEnd="300dp"
         android:background="@null"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/face"
         app:srcCompat="@drawable/icone20" />
+
 
 </android.support.constraint.ConstraintLayout>

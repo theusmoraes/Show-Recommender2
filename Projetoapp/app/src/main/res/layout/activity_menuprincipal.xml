@@ -5,27 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Menuprincipal"
-    android:background="@drawable/pranchet5">
+    android:background="@drawable/pranchetk5">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="-2dp"
+        android:layout_marginBottom="0dp"
         android:orientation="vertical">
-
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="34dp"
-            android:background="@null" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="778dp"
-
-
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="34dp"
             android:orientation="horizontal">
-
             <Button
                 android:id="@+id/button1"
                 android:layout_width="60dp"
@@ -50,10 +45,8 @@
                 android:id="@+id/button4"
                 android:layout_width="17dp"
                 android:layout_height="35dp"
-
-                android:layout_weight="1"
-                android:background="@drawable/botaocolorido"
-
+                android:layout_weight="0.2"
+                android:background="@null"
                 android:text="@string/tok"
                 android:textColor="@color/corbranca"
                 android:textSize="10dp" />
@@ -85,9 +78,8 @@
                 android:background="@null"
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/icone31" />
+            />
         </LinearLayout>
-
-
     </LinearLayout>
 
     <ImageButton

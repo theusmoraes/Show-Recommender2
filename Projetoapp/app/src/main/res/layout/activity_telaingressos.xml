@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Telaingressos"
-    android:background="@drawable/pranchet7">
+    android:background="@drawable/pranchetk7">
 
 
     <LinearLayout
@@ -51,7 +51,7 @@
                 android:layout_width="17dp"
                 android:layout_height="35dp"
                 android:layout_weight="1"
-                android:background="@drawable/botaocolorido"
+                android:background="@null"
                 android:text="@string/tok"
                 android:textColor="@color/corbranca"
                 android:textSize="10dp" />
@@ -97,13 +97,14 @@
         android:layout_centerHorizontal="true"
         android:paddingTop="100dp"
         android:paddingBottom="20dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_centerHorizontal="true"
-            android:text="@string/prompt_ingresso"
-            android:textSize="20sp"
-            android:textColor="@color/corbranca" />
+            android:text="@string/prompt_ingressos"
+            android:textColor="@color/corbranca"
+            android:textSize="20sp" />
 
     </LinearLayout>
 

@@ -50,7 +50,7 @@
                 android:layout_width="17dp"
                 android:layout_height="35dp"
                 android:layout_weight="1"
-                android:background="@null"
+                android:background="@drawable/botaocolorido"
                 android:text="Pt-br"
                 android:textColor="@color/corbranca"
                 android:textSize="10dp" />
@@ -165,5 +165,35 @@
         android:background="@null"
         android:scaleType="centerInside"
         app:srcCompat="@drawable/icone21" />
+
+    <ImageButton
+        android:id="@+id/tui"
+        android:layout_width="66dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="97dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/icone6" />
+
+    <ImageButton
+    android:id="@+id/face"
+    android:layout_width="66dp"
+    android:layout_height="40dp"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="53dp"
+    android:background="@null"
+    android:scaleType="centerInside"
+    app:srcCompat="@drawable/icone23" />
+
+    <ImageButton
+        android:id="@+id/insta"
+        android:layout_width="66dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/icone20" />
 
 </RelativeLayout>

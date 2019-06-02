@@ -17,6 +17,7 @@ public class Cadastro extends AppCompatActivity {
         setContentView(R.layout.activity_cadastro2);
 
         final Intent z= new Intent(Cadastro.this,Paginadelogin.class);
+        final String jose;
         b8 = (Button)findViewById(R.id.btnSalvar);
         b8.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,6 +11,10 @@
         android:id="@+id/imageView"
         android:layout_width="178dp"
         android:layout_height="246dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginEnd="122dp"
         app:srcCompat="@drawable/icone4"
         tools:layout_editor_absoluteX="116dp"
         tools:layout_editor_absoluteY="-6dp" />
@@ -19,6 +23,10 @@
         android:id="@+id/editText"
         android:layout_width="411dp"
         android:layout_height="54dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="94dp"
+        android:layout_marginBottom="337dp"
         android:background="@drawable/border_style"
         android:ems="10"
         android:inputType="textPersonName"
@@ -32,8 +40,10 @@
         android:id="@+id/editText2"
         android:layout_width="436dp"
         android:layout_height="59dp"
+        android:layout_above="@+id/editText3"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="83dp"
         android:background="@drawable/border_style"
         android:ems="10"
         android:inputType="textPersonName"
@@ -50,6 +60,8 @@
         android:layout_width="411dp"
         android:layout_height="85dp"
 
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="63dp"
         android:background="@drawable/border_style"
         android:ems="10"
         android:inputType="textPersonName"
@@ -59,4 +71,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="428dp" />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

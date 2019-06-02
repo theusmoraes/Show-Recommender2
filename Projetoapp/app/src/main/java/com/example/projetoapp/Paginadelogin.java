@@ -23,6 +23,7 @@ public class Paginadelogin extends AppCompatActivity {
         botaologin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                  Intent login = new Intent(Paginadelogin.this,Menuprincipal.class);
                startActivity(login);
             }

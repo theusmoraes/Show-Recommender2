@@ -8,12 +8,7 @@
     <string name="title_activity_login">Sign in</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
-    <string name="prompt_nome">Name</string>
-    <string name="prompt_user">Username</string>
-    <string name="prompt_conf">Confirm Password</string>
-    <string name="prompt_create">Create Account</string>
-    <string name="prompt_yourname">Your full name</string>
-    <string name="prompt_adress">Email adress</string>
+    <string name="prompt_ingresso">Ingressos Comprados</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Welcome !"</string>
@@ -25,9 +20,7 @@
     <string name="Nome_perfil">Seu nome:</string>
     <string name="cidade_perfil">Cidade:</string>
     <string name = "Email_perfil">  Seu email:</string>
-
-
-
+    <string name ="eventofav">Eventos Favoritos</string>
     <string name="title_activity_tela_selecao">Selecione</string>
     <string-array name="estados">
         <item>Alagoas</item>

@@ -3,14 +3,11 @@ package com.example.projetoapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 
 public class Cadastro extends AppCompatActivity {
-
 
     // tela de Cadastro
     Button b8;
@@ -25,7 +22,6 @@ public class Cadastro extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(z);
-
             }
         });
         getSupportActionBar().hide();

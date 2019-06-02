@@ -16,7 +16,19 @@ public class Paginadelogin extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.activity_paginadelogin);
 
         Button botaologin= findViewById(R.id.login);
+
         botaologin.setOnClickListener(this);
+
+        botaologin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                 Intent login = new Intent(Paginadelogin.this,Menuprincipal.class);
+               startActivity(login);
+            }
+        });
+
+
 
         getSupportActionBar().hide();
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);

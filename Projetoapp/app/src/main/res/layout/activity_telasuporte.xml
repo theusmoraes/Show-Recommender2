@@ -7,4 +7,203 @@
     tools:context=".Telasuporte"
     android:background="@drawable/pranchet8">
 
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="416dp"
+
+
+        android:layout_height="154dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="584dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="51dp"
+            android:layout_height="32dp"
+            android:background="@null"
+            android:text="menu"
+            android:textColor="@color/corbranca"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="17dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="salvador"
+            android:textColor="@color/corbranca"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="17dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/botaocolorido"
+            android:text="Pt-br"
+            android:textColor="@color/corbranca"
+            android:textSize="10dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="7dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icone29" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="7dp"
+            android:layout_height="30dp"
+
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="centerInside"
+
+            app:srcCompat="@drawable/icone30" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="7dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icone31" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/suporte"
+        android:layout_width="219dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="587dp"
+        android:text="Suporte"
+        android:textColor="@color/corbranca"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="413dp"
+        android:layout_height="83dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="299dp">
+
+        <Button
+            android:id="@+id/avaliar"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bordasuporte"
+            android:text="avaliar nosso aplicativo"
+            android:textColor="@color/corbranca"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="416dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/central"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bordasuporte"
+            android:text="Central de ajuda"
+            android:textColor="@color/corbranca"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/sobre"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bordasuporte"
+            android:text="Sobre o Aplicativo"
+            android:textColor="@color/corbranca"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/tui"
+        android:layout_width="66dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="92dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/icone6" />
+
+    <ImageButton
+        android:id="@+id/face"
+        android:layout_width="66dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="52dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/icone23" />
+
+    <ImageButton
+        android:id="@+id/insta"
+        android:layout_width="66dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/icone20" />
 </android.support.constraint.ConstraintLayout>

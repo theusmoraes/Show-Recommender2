@@ -9,16 +9,22 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 
+
 public class Cadastro extends AppCompatActivity implements View.OnClickListener {
     Button b8;
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro2);
 
+        final Intent z= new Intent(Cadastro.this,Paginadelogin.class);
+        final String jose;
         b8 = (Button)findViewById(R.id.btnSalvar);
-        b8.setOnClickListener(this);
-
+        b8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(z);
+            }
+        });
         getSupportActionBar().hide();
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }

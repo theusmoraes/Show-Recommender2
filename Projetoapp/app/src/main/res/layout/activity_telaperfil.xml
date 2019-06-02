@@ -7,45 +7,190 @@
     tools:context=".Telaperfil"
     android:background="@drawable/pranchet6">
 
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@null"
+        android:text="menu"
+        android:textColor="@color/corbranca"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="64dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="28dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:text="salvador"
+        android:textColor="@color/corbranca"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="28dp"
+        android:layout_weight="1"
+        android:background="@drawable/botaocolorido"
+        android:text="Pt-br"
+        android:textColor="@color/corbranca"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="25dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="132dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icone29" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="84dp"
+        android:layout_weight="1"
+
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icone30" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="79dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icone31" />
+
+    <TextView
+        android:id="@+id/textCidade"
+        android:layout_width="425dp"
+        android:layout_height="38dp"
+
+        android:layout_marginBottom="224dp"
+        android:background="@drawable/border_style"
+        android:text="@string/cidade_perfil"
+        android:textColor="@color/corbranca"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textSeuNome"
+        android:layout_width="413dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/border_style"
+        android:text="@string/Nome_perfil"
+        android:textColor="@color/corbranca"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textSeuemail"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="178dp"
-        android:layout_height="246dp"
-        app:srcCompat="@drawable/icone4"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="-6dp" />
+        android:layout_width="143dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="460dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icone4" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/your_name"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="277dp" />
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
+    <TextView
+        android:id="@+id/textSeuemail"
+        android:layout_width="406dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="36dp"
         android:background="@drawable/border_style"
-        android:text="@string/your_email"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="339dp" />
+        android:text="@string/Email_perfil"
+        android:textColor="@color/corbranca"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textCidade"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
-        android:id="@+id/editText3"
+    <TextView
+        android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/your_city"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="404dp" />
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="8dp"
+        android:text="@jose123"
+        android:textColor="#090404"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/tui"
+        android:layout_width="66dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="332dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textCidade"
+        app:srcCompat="@drawable/icone6" />
+
+    <ImageButton
+        android:id="@+id/face"
+        android:layout_width="66dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="332dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tui"
+        app:srcCompat="@drawable/icone23" />
+
+    <ImageButton
+        android:id="@+id/insta"
+        android:layout_width="66dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="332dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/face"
+        app:srcCompat="@drawable/icone20" />
+
 </android.support.constraint.ConstraintLayout>

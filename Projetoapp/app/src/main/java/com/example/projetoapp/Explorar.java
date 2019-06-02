@@ -9,17 +9,18 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-public class Telaperfil extends AppCompatActivity implements View.OnClickListener {
+public class Explorar extends AppCompatActivity implements View.OnClickListener {
     // parte 1
     private static final int RESQUEST_ESTADO =1;
     private static final String STATE_ESTADO = "estado";
     Button botaoestado;
     String estado;
     // terminou parte 1
+    Button botao1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_telaperfil);
+        setContentView(R.layout.activity_explorar);
         botaoestado = (Button) findViewById(R.id.button3);
         botaoestado.setOnClickListener(this);
         if(savedInstanceState!=null){
@@ -27,36 +28,6 @@ public class Telaperfil extends AppCompatActivity implements View.OnClickListene
             if (estado !=null) botaoestado.setText(estado);
         }
         // terminou parte2
-        // ALTERANDO
-        ImageButton b7= (ImageButton)findViewById(R.id.tui);
-        ImageButton b8= (ImageButton)findViewById(R.id.face);
-        ImageButton b9= (ImageButton)findViewById(R.id.insta);
-
-        b7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent tuie =new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/?lang=pt"));
-                startActivity(tuie);
-
-            }
-        });
-        b8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent facee =new Intent(Intent.ACTION_VIEW, Uri.parse("https://pt-br.facebook.com/"));
-                startActivity(facee);
-
-            }
-        });
-        b9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent inst =new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/?hl=pt-br"));
-                startActivity(inst);
-
-            }
-        });
-        // TUDO COLOCAD
         // BLOCO 2
         ImageButton b10= (ImageButton)findViewById(R.id.imageButton4);
         ImageButton b11= (ImageButton)findViewById(R.id.imageButton5);
@@ -65,7 +36,7 @@ public class Telaperfil extends AppCompatActivity implements View.OnClickListene
         b10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent aq =new Intent(Telaperfil.this,Explorar.class);
+                Intent aq =new Intent(Explorar.this,Explorar.class);
                 startActivity(aq);
 
             }
@@ -91,24 +62,33 @@ public class Telaperfil extends AppCompatActivity implements View.OnClickListene
         botaomenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent aq =new Intent(Telaperfil.this,Menuprincipal.class);
+                Intent aq =new Intent(Explorar.this,Menuprincipal.class);
                 startActivity(aq);
 
             }
         });
 
         // VAMOS Q VAMOS
+        botao1 = (Button)findViewById(R.id.btnexplorar);
+        botao1.setOnClickListener(this);
         getSupportActionBar().hide();
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }
-    // parte 3
-    @Override
-    public void onClick(View view){
-        Intent it = new Intent(this, TelaSelecao.class);
-        it.putExtra(TelaSelecao.EXTRA_ESTADO, estado);
-        startActivityForResult(it, RESQUEST_ESTADO);
-    }
 
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.btnexplorar:
+                Intent i = new Intent(this, Telaexplorar.class);
+                startActivity(i);
+                break;
+            case R.id.button3:
+                Intent it = new Intent(this, TelaSelecao.class);
+                it.putExtra(TelaSelecao.EXTRA_ESTADO, estado);
+                startActivityForResult(it, RESQUEST_ESTADO);
+                break;
+        }
+    }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
         super.onActivityResult(requestCode,resultCode,data);

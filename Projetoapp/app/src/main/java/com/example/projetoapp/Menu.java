@@ -11,7 +11,13 @@ import android.widget.ImageButton;
 public class Menu extends AppCompatActivity implements View.OnClickListener {
     // tela de escolha
     private ImageButton imagenbutao;
-    Button botao1,botao2;
+
+// agora vai
+
+    Button botao1;
+    Button botao2;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

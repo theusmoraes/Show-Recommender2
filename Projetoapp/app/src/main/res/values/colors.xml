@@ -6,5 +6,11 @@
     <color name="Verdelongin">#38AD9E</color>
     <color name="black_overlay">#66000000</color>
     <color name="corbranca">#FFFFFF</color>
+
     <color name="black">#000000</color>
+
+    <color name="coraas">#741313</color>
+    <color name="corb">#2196F3</color>
+    <color name="corc">#0B195F</color>
+    <color name="cord">#188379</color>
 </resources>

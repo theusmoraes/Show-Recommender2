@@ -303,7 +303,8 @@
                     android:layout_marginTop="-116dp"
                     android:background="@null"
                     android:text="PAGO"
-                    android:textSize="14dp" />
+                    android:textSize="14dp"
+                    android:id="@+id/btnexplorar"/>
 
             </LinearLayout>
         </ScrollView>

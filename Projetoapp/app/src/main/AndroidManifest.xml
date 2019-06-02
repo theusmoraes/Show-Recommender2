@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Cadastro"></activity>
+        <activity android:name=".explorar"></activity>
+        <activity android:name=".Cadastro" />
         <activity android:name=".TelaSelecao" />
         <activity android:name=".Telasuporte" />
         <activity android:name=".Telafavoritos" />
@@ -18,19 +19,8 @@
         <activity android:name=".Telaingressos" />
         <activity android:name=".Telaexplorar" />
         <activity android:name=".Menuprincipal" />
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:label="@string/title_activity_login" />
         <activity android:name=".Paginadelogin" />
-        <activity
-            android:name=".ui.login.Login"
-            android:label="@string/title_activity_login" />
         <activity android:name=".Menu" />
-        <activity
-            android:name=".FullscreenActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_fullscreen"
-            android:theme="@style/FullscreenTheme" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

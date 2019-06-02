@@ -8,49 +8,37 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-public class Menu extends AppCompatActivity {
+public class Menu extends AppCompatActivity implements View.OnClickListener {
     // tela de escolha
     private ImageButton imagenbutao;
-<<<<<<< HEAD
-    Button botao1;
-    Button botao2;
-=======
     Button botao1,botao2;
->>>>>>> main
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-            final Intent i= new Intent(Menu.this,Paginadelogin.class);
-            botao1 = (Button)findViewById(R.id.button2);
-            botao1.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    startActivity(i);
-                }
-            });
-        final Intent d= new Intent(Menu.this,Cadastro.class);
+
+        botao1 = (Button)findViewById(R.id.button2);
+        botao1.setOnClickListener(this);
+
         botao2 = (Button)findViewById(R.id.button);
-        botao2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        botao2.setOnClickListener(this);
+
+        getSupportActionBar().hide();
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.button2:
+                Intent i = new Intent(this, Paginadelogin.class);
+                startActivity(i);
+                break;
+            case R.id.button:
+                Intent d = new Intent(this, Cadastro.class);
                 startActivity(d);
-            }
-        });
-
-
-            final Intent x= new Intent(Menu.this,Cadastro.class);
-            botao2 = (Button)findViewById(R.id.button);
-            botao2.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    startActivity(x);
-                }
-            });
-
-
-            getSupportActionBar().hide();
-            getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
+                break;
+        }
     }
 }

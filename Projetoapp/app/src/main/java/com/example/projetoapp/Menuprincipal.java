@@ -17,8 +17,6 @@ public class Menuprincipal extends AppCompatActivity implements View.OnClickList
     String estado;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menuprincipal);
         botaoestado = (Button) findViewById(R.id.button3);

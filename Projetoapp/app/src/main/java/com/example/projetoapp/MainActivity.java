@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageButton;
 
-import java.time.Instant;
 
 public class MainActivity extends AppCompatActivity {
     // Tela de Carregamento

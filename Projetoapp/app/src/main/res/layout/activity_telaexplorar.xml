@@ -1,10 +1,158 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Telaexplorar"
     android:background="@drawable/pranchet11">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="34dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@null"
+                android:text="menu"
+                android:layout_weight="0.2"
+                android:textColor="@color/corbranca"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="17dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.2"
+                android:background="@null"
+                android:text="salvador"
+                android:textColor="@color/corbranca"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="17dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.2"
+                android:background="@null"
+                android:text="Pt-br"
+                android:textColor="@color/corbranca"
+                android:textSize="10dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="7dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.15"
+                android:background="@null"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/icone29" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="7dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.2"
+                android:background="@null"
+                android:scaleType="centerInside"
+
+                app:srcCompat="@drawable/icone30" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="7dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.2"
+                android:background="@null"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/icone31" />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:text="Explorar"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"
+                    android:textSize="24dp"
+                    android:textColor="@color/corbranca"/>
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-16dp"
+                    android:background="@drawable/icone26" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salvador-BA 11/10/2019"
+                    android:textSize="17dp"
+                    android:background="@color/corbranca"
+                    android:layout_marginTop="-40dp"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="270dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-26dp"
+                    android:background="@drawable/icone27" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rio, 13/03/2019"
+                    android:textSize="17dp"
+                    android:background="@color/corbranca"
+                    android:layout_marginTop="-10dp"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="470dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/a1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paraná, 01/12/2019"
+                    android:textSize="17dp"
+                    android:background="@color/corbranca"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="470dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/a2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paraná, 01/12/2019"
+                    android:textSize="17dp"
+                    android:background="@color/corbranca"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

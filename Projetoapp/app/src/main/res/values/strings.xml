@@ -17,9 +17,9 @@
     <string name="login_failed">"Login failed"</string>
     <string name="selecionar_estado">Selecione um estado</string>
     <string name="action_settings">Configurações</string>
-    <string name="Nome_perfil">Seu nome:</string>
-    <string name="cidade_perfil">Cidade:</string>
-    <string name = "Email_perfil">  Seu email:</string>
+    <string name="Nome_perfil">Meu nome: José Vinicius</string>
+    <string name="cidade_perfil">Cidade: Salvador</string>
+    <string name = "Email_perfil">  Meu email: Jose123@gmail.com</string>
     <string name ="eventofav">Eventos Favoritos</string>
     <string name="title_activity_tela_selecao">Selecione</string>
     <string-array name="estados">
